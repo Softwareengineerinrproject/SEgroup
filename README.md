@@ -38,4 +38,5 @@ The directory structure used in this project is.
 		1.8.2 images - This directory is stored with image files that are displayed in student portal pages.	
       
 1.9 Meeting minutes - this file contains the brief textual description about the meetings conducted which includes details like duration,attendees,topics discussed and dates.
+
 1.10 Planning Documents - This Folder contains files which are required for the project planning purpose such as Gantt Chart.
