@@ -39,4 +39,4 @@ The directory structure used in this project is.
       
 1.9 Planning Documents - This Folder contains files which are required for the project planning purpose such as Gantt Chart.
 
-2.  Meeting minutes - this file contains the brief textual description about the meetings conducted which includes details like duration,attendees,topics discussed and dates.
+2.0 Meeting minutes - this file contains the brief textual description about the meetings conducted which includes details like duration,attendees,topics discussed and dates.
