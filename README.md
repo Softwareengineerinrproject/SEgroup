@@ -1,42 +1,26 @@
-Project Title: OnCampus Timesheet and Payroll Management System
+Team Brainstomers
 
-The directory structure used in this project is.
+Project Name:- On Campus Time Sheet and Payroll Management System
 
-1. oncampuspayroll - This directory is the root directory of the project which contains sub folders like
+GitHub URL:- https://github.com/Softwareengineerinrproject/SEgroup
 
-	1.1 menus - This directory is stored with homemenu.php which contains menu nav code that can be included in the main 
-						web pages such as index.php, about.php, contact.php.
+Project overview:-
+This project deals with the developing a web based application which computerizes the Time Sheet and Payroll Management for Manager and Student
 
-	1.2 includes - This diretory is stored with head_includes.php which contain cdn links for bootstrap and jquery etc.  This file
-						is included in all web pages of this project.
+The following are the folders in the project
 
-	1.3 images - This directory is used for storing image which are used in the main pages like about, contact, home.
-	
-	1.4 dbaseutils - This directory is stored with dbconnect.php where database connection string is stored.  This file is included
-							in all php program files where database programming is required.
-							
-	1.5 logins - This directory is stored with login pages of admin, manager and student.
-	
-	1.6 admin - This directory contains admin web pages source files using which the administrative operations are performed.
-	
-		1.6.1 menu - This directory contains admin_home.php menu file used in admin portal.
-		
-		1.6.2 images - This directory is stored with image files that are displayed in admin portal pages.	
-		
-		1.6.3 uploads - This directory is stored with any document, images uploaded in the admin portal web pages.
-		
-	1.7 manager - This directory contains manager web pages source files using which the manager operations are performed.
-	
-		1.7.1 menu - This directory contains manager_menu.php menu file and also other functionalities of the manager such as add_time_sheet.php file used in manager portal web pages.
-		
-		1.7.2 images - This directory is stored with image files that are displayed in manager portal pages.	
-	
-	1.8 student - This directory contains student web pages source files using which the student operations are performed.
-	
-		1.8.1 menu - This directory contains student_home.php menu file used in student portal web pages.
-		
-		1.8.2 images - This directory is stored with image files that are displayed in student portal pages.	
-      
-1.9 Planning Documents - This Folder contains files which are required for the project planning purpose such as Gantt Chart.
+->oncampuspayroll
 
-2.0 Meeting minutes - this file contains the brief textual description about the meetings conducted which includes details like duration,attendees,topics discussed and dates.
+->Planning Documents 
+
+->meetingMinutes
+
+->Project Reports
+
+oncampuspayroll is the repository for which contains all the project source code files and the files required to implement our project.
+
+planningDocuments folder contains files like gantt and/or PERT charts,etc
+
+meetingMinutes folder includes file that contains details of date,time,duration, attendees, ideas discussed etc.
+
+projectReports folder contains documentation,powerpoint presentations
