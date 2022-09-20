@@ -21,6 +21,6 @@ oncampuspayroll is the repository for which contains all the project source code
 
 planningDocuments folder contains files like gantt and/or PERT charts,etc
 
-meetingMinutes folder includes file that contains details of date,time,duration, attendees, ideas discussed etc.
+meetingMinutes folder includes file that contains details of date,time,duration, attendees, topics and ideas discussed etc.
 
 projectReports folder contains documentation,powerpoint presentations
