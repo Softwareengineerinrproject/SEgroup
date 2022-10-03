@@ -1,15 +1,14 @@
 Team Brainstomers
 
-Project Name:- On Campus Time Sheet and Payroll Management System
+Project Name:- Covid Information App
 
 GitHub URL:- https://github.com/Softwareengineerinrproject/SEgroup
 
 Project overview:-
-This project deals with the developing a web based application which computerizes the Time Sheet and Payroll Management for Manager and Student
-
+This project deals with the developing an andriod application which gives real-time information for the users to give preventive measures and spread awareness regarding COVID-19.
 The following are the folders in the project
 
-->oncampuspayroll
+->Source code
 
 ->Planning Documents 
 
@@ -17,7 +16,7 @@ The following are the folders in the project
 
 ->Project Reports
 
-oncampuspayroll is the repository for which contains all the project source code files and the files required to implement our project.
+Source Code is the repository for which contains all the project source code files and the files required to implement our project.
 
 planningDocuments folder contains files like gantt and/or PERT charts,etc
 
