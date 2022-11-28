@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid19brainstromers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Covid19BrainStromers">
+        <activity
+            android:name=".VaccineCertificateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VaccinationCentresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostiveCasesNearByActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HelpLineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VolunteerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrecautionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthServeyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CovidCasesRealTimeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
