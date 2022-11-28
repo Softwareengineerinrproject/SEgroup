@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_covid_cases_real_time.xml" value="0.17135416666666667" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_dash_board.xml" value="0.20416666666666666" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_health_servey.xml" value="0.17135416666666667" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_help_line.xml" value="0.33" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_main.xml" value="0.19202898550724637" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_postive_cases_near_by.xml" value="0.15670289855072464" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_precautions.xml" value="0.12135416666666667" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_user_profile.xml" value="0.161231884057971" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_user_registration.xml" value="0.25" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_vaccination_centres.xml" value="0.15670289855072464" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_vaccine_certificate.xml" value="0.15217391304347827" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_volunteer.xml" value="0.1421875" />
+        <entry key="..\:/Covid19BrainStromers/app/src/main/res/layout/activity_web_view.xml" value="0.1421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

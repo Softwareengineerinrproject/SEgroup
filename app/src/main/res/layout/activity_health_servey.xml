@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    android:layout_height="match_parent"
+    tools:context=".HealthServeyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12sp"
+        android:layout_marginRight="12sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:text="Covid Survey" />
+
+            <TextView
+                android:id="@+id/gendertv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:text="Select Gender" />
+            <Spinner
+                android:id="@+id/usergender"
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/gender"/>
+
+            <EditText
+                android:id="@+id/userage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:hint="Enter age"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+
+
+            <EditText
+                android:id="@+id/usertemperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:hint="Enter temperature"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/user_blood_pressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:hint="Enter blood pressure"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/user_oxygen_levels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:hint="Enter oxygen levels"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/user_critinine_levels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:hint="Enter critinine levels"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+            <TextView
+                android:id="@+id/coughtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:text="Select Cough" />
+            <Spinner
+                android:id="@+id/user_cough"
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/cough"/>
+
+            <TextView
+                android:id="@+id/headachetv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:text="Select Headache" />
+            <Spinner
+                android:id="@+id/user_headache"
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/headache"/>
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#549000"
+                android:layout_marginTop="10dp"
+                android:text="" />
+
+            <Button
+                android:id="@+id/predictbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#549000"
+                android:textColor="#ffffff"
+                android:text="COVID PREDICT"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:backgroundTint="#f4d03f"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
