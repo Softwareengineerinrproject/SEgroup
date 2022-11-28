@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.covid19brainstromers"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:7:5-81
+13-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:9:5-68:19
+16        android:allowBackup="true"
+16-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Users\dell\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/appicon"
+19-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:11:9-41
+20        android:label="@string/app_name"
+20-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Covid19BrainStromers" >
+24-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:15:9-58
+25        <activity
+25-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:16:9-18:40
+26            android:name="com.example.covid19brainstromers.VaccineCertificateActivity"
+26-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:17:13-55
+27            android:exported="false" />
+27-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:18:13-37
+28        <activity
+28-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:19:9-21:40
+29            android:name="com.example.covid19brainstromers.VaccinationCentresActivity"
+29-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:20:13-55
+30            android:exported="false" />
+30-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:21:13-37
+31        <activity
+31-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:22:9-24:40
+32            android:name="com.example.covid19brainstromers.PostiveCasesNearByActivity"
+32-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:23:13-55
+33            android:exported="false" />
+33-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:24:13-37
+34        <activity
+34-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:25:9-27:40
+35            android:name="com.example.covid19brainstromers.UserProfileActivity"
+35-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:26:13-48
+36            android:exported="false" />
+36-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:27:13-37
+37        <activity
+37-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:28:9-30:40
+38            android:name="com.example.covid19brainstromers.HelpLineActivity"
+38-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:29:13-45
+39            android:exported="false" />
+39-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:30:13-37
+40        <activity
+40-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:31:9-33:40
+41            android:name="com.example.covid19brainstromers.WebViewActivity"
+41-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:32:13-44
+42            android:exported="false" />
+42-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:33:13-37
+43        <activity
+43-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:34:9-36:40
+44            android:name="com.example.covid19brainstromers.VolunteerActivity"
+44-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:35:13-46
+45            android:exported="false" />
+45-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:36:13-37
+46        <activity
+46-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:37:9-39:40
+47            android:name="com.example.covid19brainstromers.PrecautionsActivity"
+47-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:38:13-48
+48            android:exported="false" />
+48-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:39:13-37
+49        <activity
+49-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:40:9-42:40
+50            android:name="com.example.covid19brainstromers.HealthServeyActivity"
+50-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:41:13-49
+51            android:exported="false" />
+51-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:42:13-37
+52        <activity
+52-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:43:9-45:40
+53            android:name="com.example.covid19brainstromers.CovidCasesRealTimeActivity"
+53-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:44:13-55
+54            android:exported="false" />
+54-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:45:13-37
+55        <activity
+55-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:46:9-48:40
+56            android:name="com.example.covid19brainstromers.DashBoardActivity"
+56-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:47:13-46
+57            android:exported="false" />
+57-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:48:13-37
+58        <activity
+58-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:49:9-51:40
+59            android:name="com.example.covid19brainstromers.UserRegistrationActivity"
+59-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:50:13-53
+60            android:exported="false" />
+60-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:51:13-37
+61        <activity
+61-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:52:9-60:20
+62            android:name="com.example.covid19brainstromers.HomeActivity"
+62-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:53:13-41
+63            android:exported="true" >
+63-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:54:13-36
+64            <intent-filter>
+64-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:55:13-59:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:56:17-69
+65-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:56:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:58:17-77
+67-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:58:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:61:9-63:39
+71            android:name="com.example.covid19brainstromers.MainActivity"
+71-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:62:13-41
+72            android:exported="true" />
+72-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:63:13-36
+73
+74        <uses-library
+74-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:65:9-67:40
+75            android:name="org.apache.http.legacy"
+75-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:66:13-50
+76            android:required="false" />
+76-->E:\Covid19BrainStromers\app\src\main\AndroidManifest.xml:67:13-37
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+80            android:authorities="com.example.covid19brainstromers.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dell\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dell\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>
