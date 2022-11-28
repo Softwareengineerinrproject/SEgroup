@@ -1,0 +1,60 @@
+com/example/covid19brainstromers/JSONParser.java
+ com.example.covid19brainstromers.JSONParser
+com/example/covid19brainstromers/BuildConfig.java
+ com.example.covid19brainstromers.BuildConfig
+com/example/covid19brainstromers/GlobalVariables.java
+ com.example.covid19brainstromers.GlobalVariables
+com/example/covid19brainstromers/WebViewActivity.java
+ com.example.covid19brainstromers.WebViewActivity
+com/example/covid19brainstromers/VolunteerActivity.java
+ com.example.covid19brainstromers.VolunteerActivity
+ com.example.covid19brainstromers.VolunteerActivity$1
+ com.example.covid19brainstromers.VolunteerActivity$ShowVolunteers
+com/example/covid19brainstromers/HealthServeyActivity.java
+ com.example.covid19brainstromers.HealthServeyActivity
+ com.example.covid19brainstromers.HealthServeyActivity$CovidPredict
+ com.example.covid19brainstromers.HealthServeyActivity$PredictBtnClick
+com/example/covid19brainstromers/PrecautionsActivity.java
+ com.example.covid19brainstromers.PrecautionsActivity
+com/example/covid19brainstromers/CovidCasesRealTimeActivity.java
+ com.example.covid19brainstromers.CovidCasesRealTimeActivity
+com/example/covid19brainstromers/HomeActivity.java
+ com.example.covid19brainstromers.HomeActivity
+ com.example.covid19brainstromers.HomeActivity$Login
+ com.example.covid19brainstromers.HomeActivity$UserLogin
+ com.example.covid19brainstromers.HomeActivity$UserRegistration
+com/example/covid19brainstromers/MainActivity.java
+ com.example.covid19brainstromers.MainActivity
+com/example/covid19brainstromers/UserRegistrationActivity.java
+ com.example.covid19brainstromers.UserRegistrationActivity
+ com.example.covid19brainstromers.UserRegistrationActivity$NewRegistration
+ com.example.covid19brainstromers.UserRegistrationActivity$Registration
+com/example/covid19brainstromers/UserProfileActivity.java
+ com.example.covid19brainstromers.UserProfileActivity
+ com.example.covid19brainstromers.UserProfileActivity$GetProfile
+ com.example.covid19brainstromers.UserProfileActivity$UpdateUser
+ com.example.covid19brainstromers.UserProfileActivity$UpdateUser1
+com/example/covid19brainstromers/PostiveCasesNearByActivity.java
+ com.example.covid19brainstromers.PostiveCasesNearByActivity
+ com.example.covid19brainstromers.PostiveCasesNearByActivity$Listclick
+ com.example.covid19brainstromers.PostiveCasesNearByActivity$ShowLocations
+com/example/covid19brainstromers/VaccinationCentresActivity.java
+ com.example.covid19brainstromers.VaccinationCentresActivity
+ com.example.covid19brainstromers.VaccinationCentresActivity$ShowVaccinationCentres
+com/example/covid19brainstromers/HelpLineActivity.java
+ com.example.covid19brainstromers.HelpLineActivity
+ com.example.covid19brainstromers.HelpLineActivity$ShowHelpline
+com/example/covid19brainstromers/DashBoardActivity.java
+ com.example.covid19brainstromers.DashBoardActivity
+ com.example.covid19brainstromers.DashBoardActivity$CovidCasesclick
+ com.example.covid19brainstromers.DashBoardActivity$CovidCertificateclick
+ com.example.covid19brainstromers.DashBoardActivity$DonateClick
+ com.example.covid19brainstromers.DashBoardActivity$Helplineclick
+ com.example.covid19brainstromers.DashBoardActivity$Logoutclick
+ com.example.covid19brainstromers.DashBoardActivity$NearbyPositivecasesclick
+ com.example.covid19brainstromers.DashBoardActivity$Precautionsclick
+ com.example.covid19brainstromers.DashBoardActivity$Profileclick
+ com.example.covid19brainstromers.DashBoardActivity$TestResultclick
+ com.example.covid19brainstromers.DashBoardActivity$VaccinationCentresclick
+com/example/covid19brainstromers/VaccineCertificateActivity.java
+ com.example.covid19brainstromers.VaccineCertificateActivity
